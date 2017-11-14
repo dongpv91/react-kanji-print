@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
-import { routerReducer, routerMiddleware } from 'react-router-redux'
 
 import { users } from './users'
+import { selectedLevel } from './selectedLevel'
 
 const rootReducer = combineReducers({
-    routing: routerReducer,
+    selectedLevel,
     users
 });
 

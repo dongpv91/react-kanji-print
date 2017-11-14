@@ -15,5 +15,5 @@ render(
     <Provider store={store}>
         {routes}
     </Provider>,
-    document.getElementById('example')
+    document.getElementById('main')
 );
