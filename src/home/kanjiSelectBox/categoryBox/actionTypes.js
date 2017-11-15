@@ -1,0 +1,1 @@
+export const SELECT_LEVEL = 'categoryBox/SELECT_LEVEL';
