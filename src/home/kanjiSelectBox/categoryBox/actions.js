@@ -6,3 +6,10 @@ export function selectLevel(level) {
         level
     };
 }
+
+export function selectKanji(kanji) {
+  return {
+    type: t.SELECT_KANJI,
+    kanji
+  };
+}

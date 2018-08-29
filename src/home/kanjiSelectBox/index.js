@@ -9,9 +9,10 @@ class KanjiSelectBox extends Component {
             <div id="kanjiSelectionBox">
                 <div className="categoryBox">
                     <div className="settings">
-                        <button className="kanjiSubmit">Go</button> <input type="text" placeholder="Search Kanji" className="kanjiSearch"/>
+                        <button className="kanjiSubmit">Go</button>
+                      <input type="text" placeholder="Nhập kanji" maxLength="1" className="kanjiSearch"/>
                         <div className="kanjiStrokes">
-                            <span>Strokes:</span> <span className="strokeToggle">&nbsp;</span>
+                            <span>Viết tay:</span> <span className="strokeToggle">&nbsp;</span>
                         </div>
                     </div>
                     <div className="settings-content">

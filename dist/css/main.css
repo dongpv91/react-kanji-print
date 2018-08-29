@@ -95,6 +95,7 @@ body {
   box-sizing: border-box;
   display: inline-block;
   text-align: center;
+  cursor: pointer;
 }
 
 #kanjiSelectionBox .kanji-box.selected {
@@ -106,6 +107,7 @@ body {
   margin-top: 0;
   padding-bottom: 5px;
   border-bottom: 1px solid #000;
+  cursor: pointer;
 }
 
 #kanjiSelectionBox .category-content {
