@@ -1,8 +1,8 @@
 # react-redux-stater-kit
 
 ```bash
-$ git clone https://github.com/dongpv-vn/react-redux-boilerplate-kit
-$ cd react-redux-boilerplate-kit
+$ git clone https://github.com/dongpv91/react-kanji-print.git
+$ cd react-kanji-print
 $ npm install                   # Install project dependencies
 $ npm start                     # Compile and launch
 ```
